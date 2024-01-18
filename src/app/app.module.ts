@@ -9,10 +9,7 @@ import { AppComponent } from './app.component';
 import { NotpagefoundComponent } from './pages/notpagefound/notpagefound.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NotpagefoundComponent,
-  ],
+  declarations: [AppComponent, NotpagefoundComponent],
   imports: [BrowserModule, AppRoutingModule, PagesModule, AuthModule],
   providers: [],
   bootstrap: [AppComponent],
